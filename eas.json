@@ -13,7 +13,10 @@
     },
     "production": {
       "autoIncrement": true,
-      "node": "18.20.2"
+      "node": "18.20.2",
+      "env": {
+        "EXPO_NO_LOCKFILE_VALIDATION": "1"
+      }
     }
   },
   "submit": {
