@@ -19,7 +19,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.evin.venus"
+      "bundleIdentifier": "com.evinuckan.venus",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -27,17 +30,16 @@
         "backgroundColor": "#FBDCE8"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.evin.venus"
+      "package": "com.evinuckan.venus"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "EXPO_PUBLIC_VIBECODE_PROJECT_ID": "vibecode-project",
       "EXPO_PUBLIC_VIBECODE_SUPABASE_URL": "https://tfpqemhikqavgfmvnfrq.supabase.co",
       "EXPO_PUBLIC_VIBECODE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRmcHFlbWhpa3FhdmdmbXZuZnJxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMxMTkzODAsImV4cCI6MjA3ODY5NTM4MH0.qHYqt6TL83421lV4vlRzTlqMbtalru619B4EQ6LEgcs",
       "eas": {
-        "projectId": "vibecode-project"
+        "projectId": "3ecfd577-99c5-4972-894f-ebdab59c5b4a"
       }
     },
     "plugins": [
@@ -49,6 +51,7 @@
       "expo-sqlite",
       "expo-video",
       "expo-web-browser"
-    ]
+    ],
+    "owner": "evinuckan"
   }
 }
